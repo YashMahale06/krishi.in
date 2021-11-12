@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <meta name="description" content="A description of the page and its contents" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>FARMERPROBLEM</title>
+</head>
+
+<body>
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function () {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
+  </header>
+  <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest"></h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-4">WHEAT</h1>
+          <div class="flex mb-4">
+            <a class="flex-grow text-blue-400 border-b-2 border-blue-500 py-2 text-lg px-1"Description href="https://google.com" class="button mr-5 hover:text-white">Description</a>
+            <a class="flex-grow text-blue-400 border-b-2 border-blue-500 py-2 text-lg px-1"Description href="http://127.0.0.1:5500/climate.html" class="button mr-5 hover:text-white">Climate</a>
+            <a class="flex-grow text-blue-400 border-b-2 border-blue-500 py-2 text-lg px-1"Description href="https://google.com" class="button mr-5 hover:text-white">More Information</a>
+          </div>
+          <p class="leading-relaxed mb-4">Wheat crop has wide adaptability. It can be grown not only in the tropical and sub-tropical zones, but also in the temperate zone and the cold tracts of the far north ,beyond even the 60 degree north altitude . Wheat can tolerate severe cold and snow and resume growth with the setting in of warm weather in spring .It can be cultivated from sea level to as high as 3300 meters.The best wheat are produced in areas favoured with cool, moist weather during the major portion of the growing period followed by dry, warm weather to enable the grain to ripen properly. The optimum temperature range for ideal germination of wheat seed is 20-25 C though the seeds can germinate in the temperature range 3.5 to 35 c. Rains just after sowing hamper germination and encourage seedling blight. Areas with a warm and damp climate are not suited for wheat growing.</p>
+          
+          <div class="flex">
+            
+           
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="wheat.jpg">
+      </div>
+    </div>
+  </section>

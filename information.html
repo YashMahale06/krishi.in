@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <meta name="description" content="A description of the page and its contents" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="shortcut icon" href="agricultural.png" />
+  <title>
+   Krishikonnect.in
+  </title>
+</head>
+<style>
+  .mySlides {
+    display: none
+  }
+
+  .w3-left,
+  .w3-right,
+  .w3-badge {
+    cursor: pointer
+  }
+
+  .w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+  }
+</style>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div id="nav-placeholder"></div>
+        <script>
+          $(function () {
+            $("#nav-placeholder").load("nav.html");
+          });
+        </script>
+    </header>
+    <section class="text-white body-font bg-gray-900" style="background-image: url('mn.jpg');background-repeat: no-repeat;background-position: center;background-size: 100%;">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Some Information about farming and about new technologies</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border border-gray-800">
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">1. Soil and Water Sensors</h2>
+            <p class="leading-relaxed text-base mb-4">Perhaps the equipment having the most immediate effect are soil and water sensors. These sensors are durable, unobtrusive and relatively inexpensive. Even family farms are finding it affordable to distribute them throughout their land, and they provide numerous benefits. For instance, these sensors can detect moisture and nitrogen levels, and the farm can use this information to determine when to water and fertilize rather than rely on a predetermined schedule. That results in more efficient use of resources and therefore lowered costs, but it also helps the farm be more environmentally friendly by conserving water, limiting erosion and reducing fertilizer levels in local rivers and lakes.</p>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border border-gray-800">
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">2. Weather Tracking</h2>
+            <p class="leading-relaxed text-base mb-4">Although we still make jokes about our local meteorologists, the truth is that computerized weather modeling is becoming increasingly sophisticated. There are online weather services that focus exclusively on agriculture, and farmers can access these services on dedicated onboard and handheld farm technology but also via mobile apps that run on just about any consumer smartphone. This technology can give farmers enough advanced notice of frost, hail and other weather that they can take precautions to protect the crops or at least mitigate losses to a significant degree.</p>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border border-gray-800">
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">3. Satellite Imaging</h2>
+            <p class="leading-relaxed text-base mb-4">As remote satellite imaging has become more sophisticated, it’s allowed for real-time crop imagery. This isn’t just bird’s-eye-view snapshots but images in resolutions of 5-meter-pixels and even greater. Crop imagery lets a farmer examine crops as if he or she were standing there without actually standing there. Even reviewing images on a weekly basis can save a farm a considerable amount of time and money. Additionally, this technology can be integrated with crop, soil and water sensors so that the farmers can receive notifications along with appropriate satellite images when danger thresholds are met.</p>          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border border-gray-800">
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">4. Vertical Farming</h2>
+            <p class="leading-relaxed text-base mb-4">Vertical farming has been a science fiction topic as far back as the 1950s and perhaps further, and now it’s not only scientifically viable but will be financially viable within the decade. Vertical farm technology Vertical farming a component of urban agriculture is the practice of producing food in vertically stacked layers. This offers many advantages. Perhaps the most obvious is the ability to grow within urban environments and thus have fresher foods available faster and at lower costs. However, vertical farming won’t be limited to just urban environments like initially expected. Farmers in all areas can use it to make better use of available land and to grow crops that wouldn’t normally be viable in those locations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
